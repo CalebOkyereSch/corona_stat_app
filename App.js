@@ -49,7 +49,7 @@ export default function App(props) {
   return (
     <View style={{flex:1,background:"#eee"}}>
       <View style={{flex:2,justifyContent:'flex-end',borderBottomWidth:1.5,borderBottomColor:"#aaa"}}>
-         <Text style={{fontSize:22,fontWeight:'bold',marginLeft:20,marginBottom:10}}>COVID-19 <br/>Worldwide</Text>
+         <Text style={{fontSize:22,fontWeight:'bold',marginLeft:20,marginBottom:10}}>COVID-19{"\n"} Worldwide</Text>
       </View>
       <View style={{flex:1.7,marginBottom:10,marginTop:20}}>
         {/* world statics side */}
